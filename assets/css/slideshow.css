@@ -89,7 +89,7 @@ img {
     transition: background-color 0.6s ease;
 }
 
-.active,
+.slide-nav .active,
 .dot:hover {
     background-color: #111111;
 }
