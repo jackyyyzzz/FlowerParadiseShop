@@ -13,6 +13,10 @@ img {
     margin: auto;
 }
 
+#slide-window {
+    padding: 3em 0 !important;
+}
+
 
 /* Next & previous buttons */
 
