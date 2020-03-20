@@ -189,7 +189,7 @@ html {
 }
 
 body {
-    background: rgba(158, 166, 123, 0.95);
+    background: rgba(239, 255, 209, 0.95);
 }
 
 body.is-preload *,
@@ -260,8 +260,8 @@ a {
 }
 
 a:hover {
-    border-bottom-color: #f56a6a;
-    color: #f56a6a !important;
+    border-bottom-color: rgba(187, 112, 0, 0.75);
+    color: rgba(187, 112, 0, 0.75) !important;
 }
 
 a:hover strong {
@@ -400,7 +400,7 @@ pre code {
 
 hr {
     border: 0;
-    border-bottom: solid 1px rgba(210, 215, 217, 0.75);
+    border-bottom: solid 1px rgba(187, 112, 0, 0.75);
     margin: 2em 0;
 }
 
@@ -1612,7 +1612,7 @@ header p {
 }
 
 header.major> :last-child {
-    border-bottom: solid 3px rgba(210, 215, 217, 0.75);
+    border-bottom: solid 3px rgba(187, 112, 0, 0.75);
     display: inline-block;
     margin: 0 0 2em 0;
     padding: 0 0.75em 0.5em 0;
@@ -1652,7 +1652,7 @@ textarea {
     background: #ffffff;
     border-radius: 0.375em;
     border: none;
-    border: solid 1px rgba(210, 215, 217, 0.75);
+    border: solid 1px rgba(187, 112, 0, 0.75);
     color: inherit;
     display: block;
     outline: 0;
@@ -1766,7 +1766,7 @@ input[type="checkbox"]+label:before,
 input[type="radio"]+label:before {
     background: #ffffff;
     border-radius: 0.375em;
-    border: solid 1px rgba(210, 215, 217, 0.75);
+    border: solid 1px rgba(187, 112, 0, 0.75);
     content: '';
     display: inline-block;
     font-size: 0.8em;
@@ -1802,22 +1802,22 @@ input[type="radio"]+label:before {
 }
 
 ::-webkit-input-placeholder {
-    color: #9fa3a6 !important;
+    color: rgba(187, 112, 0, 0.75) !important;
     opacity: 1.0;
 }
 
 :-moz-placeholder {
-    color: #9fa3a6 !important;
+    color: rgba(187, 112, 0, 0.75) !important;
     opacity: 1.0;
 }
 
 ::-moz-placeholder {
-    color: #9fa3a6 !important;
+    color: rgba(187, 112, 0, 0.75) !important;
     opacity: 1.0;
 }
 
 :-ms-input-placeholder {
-    color: #9fa3a6 !important;
+    color: rgba(187, 112, 0, 0.75) !important;
     opacity: 1.0;
 }
 
@@ -1826,7 +1826,7 @@ input[type="radio"]+label:before {
 
 .box {
     border-radius: 0.375em;
-    border: solid 1px rgba(210, 215, 217, 0.75);
+    border: solid 1px rgba(187, 112, 0, 0.75);
     margin-bottom: 2em;
     padding: 1.5em;
 }
@@ -1986,7 +1986,7 @@ ul.alt {
 }
 
 ul.alt li {
-    border-top: solid 1px rgba(210, 215, 217, 0.75);
+    border-top: solid 1px rgba(187, 112, 0, 0.75);
     padding: 0.5em 0;
 }
 
@@ -2117,7 +2117,7 @@ ul.contact {
 
 ul.contact li {
     text-decoration: none;
-    border-top: solid 1px rgba(210, 215, 217, 0.75);
+    border-top: solid 1px rgba(187, 112, 0, 0.75);
     margin: 1.5em 0 0 0;
     padding: 1.5em 0 0 3em;
     position: relative;
@@ -2196,16 +2196,16 @@ ul.pagination li>.page {
 }
 
 ul.pagination li>.page.active {
-    background-color: #f56a6a;
+    background-color: rgba(187, 112, 0, 0.75);
     color: #ffffff !important;
 }
 
 ul.pagination li>.page.active:hover {
-    background-color: #f67878;
+    background-color: rgba(187, 112, 0, 0.75);
 }
 
 ul.pagination li>.page.active:active {
-    background-color: #f45c5c;
+    background-color: rgba(187, 112, 0, 0.75);
 }
 
 ul.pagination li:first-child {
@@ -2239,7 +2239,7 @@ table {
 }
 
 table tbody tr {
-    border: solid 1px rgba(210, 215, 217, 0.75);
+    border: solid 1px rgba(187, 112, 0, 0.75);
     border-left: 0;
     border-right: 0;
 }
@@ -2261,11 +2261,11 @@ table th {
 }
 
 table thead {
-    border-bottom: solid 2px rgba(210, 215, 217, 0.75);
+    border-bottom: solid 2px rgba(187, 112, 0, 0.75);
 }
 
 table tfoot {
-    border-top: solid 2px rgba(210, 215, 217, 0.75);
+    border-top: solid 2px rgba(187, 112, 0, 0.75);
 }
 
 table.alt {
@@ -2273,7 +2273,7 @@ table.alt {
 }
 
 table.alt tbody tr td {
-    border: solid 1px rgba(210, 215, 217, 0.75);
+    border: solid 1px rgba(187, 112, 0, 0.75);
     border-left-width: 0;
     border-top-width: 0;
 }
@@ -2385,7 +2385,7 @@ input[type="reset"].primary,
 input[type="button"].primary,
 button.primary,
 .button.primary {
-    background-color: #f56a6a;
+    background-color: rgba(187, 112, 0, 0.75);
     box-shadow: none;
     color: #ffffff !important;
 }
@@ -2395,7 +2395,7 @@ input[type="reset"].primary:hover,
 input[type="button"].primary:hover,
 button.primary:hover,
 .button.primary:hover {
-    background-color: #f67878;
+    background-color: rgba(187, 112, 0, 0.75);
 }
 
 input[type="submit"].primary:active,
@@ -2403,7 +2403,7 @@ input[type="reset"].primary:active,
 input[type="button"].primary:active,
 button.primary:active,
 .button.primary:active {
-    background-color: #f45c5c;
+    background-color: rgba(187, 112, 0, 0.75);
 }
 
 input[type="submit"].disabled,
@@ -2424,7 +2424,7 @@ button:disabled,
 /* Mini Posts */
 
 .mini-posts article {
-    border-top: solid 1px rgba(210, 215, 217, 0.75);
+    border-top: solid 1px rgba(187, 112, 0, 0.75);
     margin-top: 2em;
     padding-top: 2em;
 }
@@ -2506,7 +2506,7 @@ button:disabled,
 }
 
 .features article .icon:before {
-    color: #f56a6a;
+    color: rgba(187, 112, 0, 0.75);
     font-size: 2.75rem;
     position: relative;
     top: 0.05em;
@@ -2646,7 +2646,7 @@ button:disabled,
 }
 
 .posts article:before {
-    background: rgba(210, 215, 217, 0.75);
+    background: rgba(187, 112, 0, 0.75);
     content: '';
     display: block;
     height: calc(100% + 6em);
@@ -2657,7 +2657,7 @@ button:disabled,
 }
 
 .posts article:after {
-    background: rgba(210, 215, 217, 0.75);
+    background: rgba(187, 112, 0, 0.75);
     bottom: -3em;
     content: '';
     display: block;
@@ -2681,7 +2681,7 @@ button:disabled,
     width: 100%;
 }
 
-@media screen and (min-width: 1081px) {
+@media screen and (min-width: 5001px) {
     .posts article:nth-child(3n+1):before {
         display: none;
     }
@@ -2705,7 +2705,7 @@ button:disabled,
     }
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 5000px) {
     .posts article {
         width: calc(50% - 6em);
     }
@@ -2714,7 +2714,7 @@ button:disabled,
     }
 }
 
-@media screen and (min-width: 481px) and (max-width: 1080px) {
+@media screen and (min-width: 481px) and (max-width: 5000px) {
     .posts article:nth-child(2n+1):before {
         display: none;
     }
@@ -2818,7 +2818,7 @@ button:disabled,
 
 #main>.inner>section {
     padding: 6em 0 4em 0;
-    border-top: solid 2px rgba(210, 215, 217, 0.75);
+    border-top: solid 2px rgba(187, 112, 0, 0.75);
 }
 
 #main>.inner>section:first-of-type {
@@ -2910,7 +2910,7 @@ button:disabled,
     -webkit-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
     -ms-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
     transition: margin-left 0.5s ease, box-shadow 0.5s ease;
-    background-color: rgb(172, 137, 106);
+    background-color: rgb(252, 241, 205);
     font-size: 0.9em;
     position: relative;
     width: 26em;
@@ -2927,7 +2927,7 @@ button:disabled,
 }
 
 #sidebar>.inner>* {
-    border-bottom: solid 2px rgba(210, 215, 217, 0.75);
+    border-bottom: solid 2px rgba(187, 112, 0, 0.75);
     margin: 0 0 3.5em 0;
     padding: 0 0 3.5em 0;
 }
@@ -2943,7 +2943,8 @@ button:disabled,
 }
 
 #sidebar>.inner>.alt {
-    background-color: rgb(172, 137, 106) border-bottom: 0;
+    background-color: rgb(172, 137, 106);
+    border-bottom: 0;
     margin: -2.22222em 0 4.44444em -2.22222em;
     padding: 2.22222em;
     width: calc(100% + 4.44444em);
@@ -3082,7 +3083,8 @@ button:disabled,
         z-index: 1;
     }
     #sidebar .toggle:after {
-        background: rgb(172, 137, 106);
+        border: 1px solid rgba(0, 0, 0, 0.322);
+        background: rgba(239, 255, 209, 0.938);
         border-radius: 0.375em;
         content: '';
         height: 3.5em;
@@ -3101,7 +3103,7 @@ button:disabled,
     display: -webkit-flex;
     display: -ms-flex;
     display: flex;
-    border-bottom: solid 5px rgba(210, 215, 217, 0.75);
+    border-bottom: solid 5px rgba(187, 112, 0, 0.75);
     padding: 6em 0 1em 0;
     position: relative;
 }
@@ -3250,7 +3252,7 @@ button:disabled,
 /* Footer */
 
 #footer .copyright {
-    color: rgba(210, 215, 217, 0.75);
+    color: rgba(106, 109, 110, 0.795);
     font-size: 0.9em;
 }
 
@@ -3288,7 +3290,7 @@ button:disabled,
 
 #menu ul a:hover,
 #menu ul span:hover {
-    color: #f56a6a;
+    color: rgba(187, 112, 0, 0.75);
 }
 
 #menu ul a.opener,
@@ -3330,7 +3332,7 @@ button:disabled,
 
 #menu ul a.opener:hover:before,
 #menu ul span.opener:hover:before {
-    color: #f56a6a;
+    color: rgb(172, 137, 106);
 }
 
 #menu ul a.opener.active+ul,
@@ -3347,7 +3349,7 @@ button:disabled,
 }
 
 #menu>ul>li {
-    border-top: solid 1px rgba(210, 215, 217, 0.75);
+    border-top: solid 1px rgba(187, 112, 0, 0.75);
     margin: 0.5em 0 0 0;
     padding: 0.5em 0 0 0;
 }
