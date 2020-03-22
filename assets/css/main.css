@@ -2911,7 +2911,6 @@ button:disabled,
     -ms-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
     transition: margin-left 0.5s ease, box-shadow 0.5s ease;
     background-color: rgb(253, 255, 222);
-    ;
     font-size: 0.9em;
     position: relative;
     width: 26em;
@@ -3117,12 +3116,6 @@ button:disabled,
 }
 
 #header .logo {
-    display: flex;
-    border: none;
-    flex-direction: row;
-}
-
-#header .logo-img {
     min-width: 70px;
     max-width: 100px;
     border-bottom: 0;
@@ -3131,10 +3124,13 @@ button:disabled,
     font-size: 1.125em;
 }
 
-#header .logo .slogan {
+#header .logo a {
+    border: none;
+}
+
+#header .slogan {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    align-items: center;
     color: black;
     flex: 2;
 }
