@@ -3117,6 +3117,12 @@ button:disabled,
 }
 
 #header .logo {
+    display: flex;
+    border: none;
+    flex-direction: row;
+}
+
+#header .logo-img {
     min-width: 70px;
     max-width: 100px;
     border-bottom: 0;
@@ -3125,14 +3131,12 @@ button:disabled,
     font-size: 1.125em;
 }
 
-#header .slogan {
-    -moz-flex: 4;
-    -webkit-flex: 4;
-    -ms-flex: 4;
-    flex: 4;
+#header .logo .slogan {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: black;
+    flex: 2;
 }
 
 #header .slogan>* {
@@ -3140,6 +3144,7 @@ button:disabled,
 }
 
 #header .icons {
+    flex: 2;
     display: flex;
     text-align: right;
     align-items: center;
