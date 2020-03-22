@@ -3117,14 +3117,33 @@ button:disabled,
 }
 
 #header .logo {
+    min-width: 70px;
+    max-width: 100px;
     border-bottom: 0;
     color: inherit;
     font-family: 'Satisfy', cursive;
     font-size: 1.125em;
 }
 
+#header .slogan {
+    -moz-flex: 4;
+    -webkit-flex: 4;
+    -ms-flex: 4;
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#header .slogan>* {
+    margin: 0 0 0 13px;
+}
+
 #header .icons {
+    display: flex;
     text-align: right;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 @media screen and (max-width: 1680px) {
